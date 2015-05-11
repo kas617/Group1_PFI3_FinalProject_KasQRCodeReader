@@ -1,7 +1,5 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-compile files('libs/zbar.jar')
-compile files('libs/armeabi.jar')
-compile files('libs/x86.jar')
+
 
 buildscript {
     repositories {

@@ -1,14 +1,12 @@
-package com.infodat.zbarscannerexample;
+package com.example.kas.group1_pfi3_finalproject_kasqrcodereader;
 
 import android.content.pm.ActivityInfo;
 import android.hardware.Camera;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;

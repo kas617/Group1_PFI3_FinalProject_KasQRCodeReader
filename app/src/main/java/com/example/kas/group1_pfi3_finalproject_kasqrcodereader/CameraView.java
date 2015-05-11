@@ -3,9 +3,7 @@
  * 
  * Created by lisah0 on 2012-02-24
  */
-package com.infodat.zbarscannerexample;
-
-import java.io.IOException;
+package com.example.kas.group1_pfi3_finalproject_kasqrcodereader;
 
 import android.content.Context;
 import android.hardware.Camera;
@@ -15,8 +13,10 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+import java.io.IOException;
+
 /** A basic Camera preview class */
-public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
+class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
     private SurfaceHolder mHolder;
     private Camera mCamera;
     private PreviewCallback previewCallback;
